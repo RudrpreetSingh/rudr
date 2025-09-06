@@ -21,7 +21,7 @@ nav{
 
 nav h1{
     font-size: 50px;
-    color: red;
+    color: rgb(100, 0, 0);
 }
 
 nav div a{
@@ -55,13 +55,13 @@ nav div a:hover{
 
 .bodycontent h1{
     font-size: 70px;
-    color: rgb(100, 100, 100);
+    color: rgb(100, 0, 0);
 }
 .bodycontent p{
     width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: rgb(255, 0, 80);
+    color: rgb(20, 100, 0);
 }
 
 .bodycontent div{
@@ -69,25 +69,38 @@ nav div a:hover{
 }
 
 .bodycontent div .firstbtn{
-    background-color: rgb(255, 105, 105);
+    background-color: rgb(100, 0, 0);
     padding: 5px 20px;
-    border: 2px solid rgb(100, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
 .bodycontent div .firstbtn:hover{
-background-color: black;
-color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 .bodycontent div .secondbtn{
-    background-color: rgb(255, 105, 105);
+    background-color: rgb(20, 100, 0);
     padding: 5px 20px;
-     border: 2px solid rgb(100, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
     margin-left: 20px;
 }
 
 .bodycontent div .secondbtn:hover{
+background-color: rgb(255, 255, 255);
+color: black;
+}
+
+.bodycontent div .thirdbtn{
+    background-color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.bodycontent div .thirdbtn:hover{
 background-color: black;
 color: white;
 }
@@ -101,6 +114,7 @@ color: white;
 }
 
 .image{
-    margin-left: 250px;
-    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 20%;
 }
