@@ -3,39 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUDRPREET SINGH BHOHI</title>
+    <title>Rudrpreet Singh Bhohi | Web Developer Portfolio</title>
+    <meta name="description" content="Portfolio website of Rudrpreet Singh - Web Developer showcasing projects, skills, and contact details.">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="rudr.jpg" type="image/x-icon">
 </head>
 <body>
-    <!-- navigation bar -->
-    <nav>
-        <h1>Rudrpreet Singh</h1>
-        <div>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contacts</a>
-        </div>
-    </nav>
-
-    <!-- body content -->
-    <div class="content">
-        <!-- Hero Content Container -->
-        <div class="bodycontent">
-            <h4>web developer</h4>
-            <h1>Hello, My name is Rudrpreet singh</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cupiditate sequi vero error numquam quod adipisci culpa sunt, quos veritatis</p>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <h1>Rudrpreet Singh</h1>
             <div>
-                <button class="firstbtn">Projects</button>
-                <button class="secondbtn">Instagram</button>
-                <button class="thirdbtn">Facebook</button>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-        </div>
+        </nav>
+    </header>
 
-        <!-- Hero Image Container -->
-        <div class="imagecontent">
-            <img class="image" src="cute marvels groot.jpg" alt="rudr">
+    <!-- Hero Section -->
+    <main>
+        <section class="content" id="about">
+            <div class="bodycontent">
+                <h4>Web Developer</h4>
+                <h1>Hello, My name is Rudrpreet Singh</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cupiditate sequi vero error numquam quod adipisci culpa sunt, quos veritatis.</p>
+                <div class="buttons">
+                    <a href="#projects" class="firstbtn">Projects</a>
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="secondbtn">Instagram</a>
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" class="thirdbtn">Facebook</a>
+                </div>
+            </div>
+
+            <div class="imagecontent">
+                <img class="image" src="cute marvels groot.jpg" alt="Cartoon character Groot illustration">
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projectContainer" id="projects">
+            <div class="projectHeader">
+                <h1>Projects</h1>
+                <hr>
+            </div>
+
+            <div class="projectCards">
+                <article class="cardContainer">
+                    <div class="cardContent">
+                        <h2>Authentication System</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum commodi placeat in reprehenderit rem vitae ex labore natus quidem possimus.</p>
+                        <a href="#" class="click">View Project</a>
+                    </div>
+                    <div class="cardImage">
+                        <img src="image 2 .jpg" alt="Screenshot of authentication system project">
+                    </div>
+                </article>
+                
+                <article class="cardContainer reverse">
+                    <div class="cardContent">
+                        <h2>Portfolio Website</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum commodi placeat in reprehenderit rem vitae ex labore natus quidem possimus.</p>
+                        <a href="#" class="click">View Project</a>
+                    </div>
+                    <div class="cardImage">
+                        <img src="image 3 .jpg" alt="Screenshot of portfolio website project">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="social">
+        <div class="socialContainer">
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="instagram 123.jpg" alt="Instagram logo">
+            </a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                <img src="facebook.jpg" alt="Facebook logo">
+            </a>
         </div>
-    </div>        
+        <p>&copy; 2025 All rights reserved - Rudrpreet Singh</p>
+    </footer>
 </body>
 </html>
